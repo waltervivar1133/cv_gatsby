@@ -1,0 +1,23 @@
+.menu{
+  position: relative;
+  z-index: 10;
+
+    ul{
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      flex-direction: row;
+      margin: 0;
+    }
+    li{
+      padding: 30px 20px;
+      font-weight: bold;
+      a{
+        color: #fff;
+        &:hover{
+          color : blue;
+          text-decoration: none;
+        }
+      }
+    }
+}
