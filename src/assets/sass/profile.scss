@@ -1,0 +1,68 @@
+.profile{
+
+  position: relative;
+  top: -84px;
+  width: 100%;
+  z-index: 0;
+
+  .wallpaper{
+    background-image: url("../../images/code.jpg");
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+
+  .dark{
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+  }
+  .box{
+    position: relative;
+    margin-top: -400px;
+    padding:0;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba($color: #000000, $alpha: 0.75);
+    
+    .info{
+      padding: 3.5rem;
+      &__data{
+        > span {
+          background-color: #0098d3;
+          font-weight: bold;
+          color : #fff;
+          padding: 5px 10px;
+          border-radius: 5px;
+        }
+        > p:first-of-type{
+          margin : 10px 0 0 0;
+          font-weight: 600;
+          font-size: 3rem;
+        }
+
+        .more-info{
+          .item{
+            display: flex;
+
+            p {
+              &:first-of-type{
+                width: 35%;
+                font-weight: bold;
+                text-transform: uppercase;
+              }
+              &:last-of-type{
+                width: 75%;
+                color : #a2a2a2;
+              }
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}

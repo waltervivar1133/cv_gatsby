@@ -7,7 +7,7 @@ import Layout from '../layouts/BasicLayout';
 
 const Skill = () => (
   
-  <Layout>
+  <Layout menuColor = "#f00">
     <h1>Estamos en skill</h1>
     <Button variant="primary">Guardar</Button>
  </Layout>

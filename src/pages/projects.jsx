@@ -7,7 +7,7 @@ import Layout from '../layouts/BasicLayout';
 
 const Projects = () => (
   
-  <Layout>
+  <Layout menuColor="#615019">
     <h1>Estamos en proyectos</h1>
     <Button variant="primary">Guardar</Button>
  </Layout>

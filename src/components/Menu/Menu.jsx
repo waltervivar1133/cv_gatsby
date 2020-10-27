@@ -5,10 +5,11 @@ import {Container} from 'react-bootstrap';
 
 const Menu = (props) => {
 
-  console.log(props)
+  const { menuColor} = props
   return (
-      <header className="menu">
+      <header className="menu" style={{backgroundColor : menuColor ||  "transparent"}}>
         <Container>
+          
           <ul>
             <li>
               <Link to="/">Inicio</Link>

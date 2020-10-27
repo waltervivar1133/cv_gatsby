@@ -1,15 +1,15 @@
 import React from "react"
-import {Button} from 'react-bootstrap';
 import '../assets/sass/index.scss'
 import Layout from '../layouts/BasicLayout';
+import Profile from '../components/Profile/Profile'
 
 
 
 const IndexPage = () => (
   
-  <Layout menuColor="#000">
+  <Layout menuColor="transparent">
+    <Profile/>
     <h1>Hola</h1>
-    <Button variant="primary">Guardar</Button>
  </Layout>
 )
 
