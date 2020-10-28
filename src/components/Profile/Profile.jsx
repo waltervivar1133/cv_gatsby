@@ -33,10 +33,6 @@ const Profile = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel ea nemo voluptatem, earum saepe, provident vero, tenetur voluptate incidunt sequi quisquam? Reiciendis ex esse fuga quos? Eveniet, id earum.</p>
                 <hr/>
                 <div className="more-info">
-                  {/* <div className="item">
-                    <p>Telefono</p>
-                    <p>980 717 587</p>
-                  </div> */}
                   {
                     data.map( (item , key) => (
                     <div className="item">

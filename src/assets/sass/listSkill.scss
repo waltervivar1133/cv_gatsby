@@ -1,0 +1,23 @@
+.list-skill{
+
+  .skillbar{
+    width : 48%;
+    display : inline-block;
+    margin-right:20px;
+    &:nth-child(2n){
+      margin-left: 20px;
+      margin-right:0;
+    }
+
+    @media (max-width: 700px){
+      width:100%;
+      margin:0;
+      display : inline-block;
+      
+      &:nth-child(2n){
+        margin-left: 0;
+        margin-right:0;
+      }
+    }
+  }
+}
