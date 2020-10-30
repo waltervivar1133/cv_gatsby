@@ -7,7 +7,7 @@ import {skillsFrontEnd, skillsFrontEndColor} from '../utils/skills';
 
 const Skill = () => (
   
-  <Layout menuColor = "#0098d3">
+  <Layout menuColor = "#000">
     <Container class="skills">
       <div className="skills__block">
         <h2>Hola</h2>
