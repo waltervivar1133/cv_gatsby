@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../assets/sass/listSkill.scss';
-import SkillBar from 'react-skills-bars';
+import loadable from '@loadable/component'
+// import SkillBar from 'react-skills-bars';
+
+const SkillBar = loadable(() => import ('react-skills-bars'));
 
 const ListSkill = (props) => {
 
